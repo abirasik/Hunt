@@ -1,0 +1,39 @@
+@media (min-width:302px) and (max-width:575px) {
+
+    /* nav bar*/
+    nav {
+        top: 0;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #000;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+
+    nav ul li a::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #fec600;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transition: .5s;
+        transform: translatex(-50%);
+    }
+
+    nav ul li a:hover::after {
+        width: 40%;
+    }
+
+
+
+
+
+}
