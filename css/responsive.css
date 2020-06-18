@@ -52,7 +52,10 @@
         padding-top: 170px;
         padding-bottom: 0;
     }
-
+    #banner-part .overlay h1{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
     #banner-part .overlay p {
         width: auto;
         margin-bottom: 50px;
@@ -68,8 +71,7 @@
 
     #banner-part ul {
         position: absolute;
-        bottom: 10px;
-        ;
+        bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 5;
