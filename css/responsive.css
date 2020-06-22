@@ -348,6 +348,16 @@
     }
 
     /* pricing part */
+    
+/* counter part start*/
+    #counter-part .overlay .box{
+        margin-bottom: 20px;
+    }
+    
+    #counter-part .overlay .box .text p{
+        font-size: 21px;
+    }
+/* counter part end*/
 
     /* team part start*/
     
@@ -372,6 +382,13 @@
     /*   themforest part end*/
     
 /* footer part start*/
+    #footer-top .item{
+        margin-bottom: 25px;
+        margin-top: -20px;
+    }
+    #footer-top .item:after{
+        display: none;
+    }
     #footer-top .icon a{
         margin: 0 3px;
     }

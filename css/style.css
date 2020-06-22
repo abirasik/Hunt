@@ -1102,7 +1102,7 @@ nav ul li a:hover:after {
     position: absolute;
     top: -20%;
     left: 36%;
-    transform: translate(-50%, -100%) !importent;
+    transform: translate(-50%, -100%) importent;
     transition: .5s;
 }
 
