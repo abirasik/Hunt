@@ -36,11 +36,11 @@ $('.slider').slick({
     nextArrow: '<i class="fa fa-arrow-circle-right next" aria-hidden="true"></i>',
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
                 dots: true
             }
     },
@@ -89,12 +89,12 @@ $('.service-slider').slick({
     
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                vertical: false,
                 infinite: true,
-                dots: true
             }
     },
         {
@@ -138,12 +138,12 @@ $('.testi-slider .left').slick({
     
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
+                slidesToScroll: 1,
+                vertical: false,
+                arrows: false,
             }
     },
         {
@@ -187,12 +187,11 @@ $('.testi-slider .right').slick({
     
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 infinite: true,
-                dots: true
             }
     },
         {
@@ -236,12 +235,11 @@ $('#themforest-part .row').slick({
     
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
+                slidesToScroll: 1,
+            
             }
     },
         {
