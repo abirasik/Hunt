@@ -45,10 +45,12 @@ $('.slider').slick({
             }
     },
         {
-            breakpoint: 600,
+            breakpoint: 767,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true
             }
     },
         {
@@ -96,10 +98,11 @@ $('.service-slider').slick({
             }
     },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                vertical: false,
             }
     },
         {
@@ -144,10 +147,12 @@ $('.testi-slider .left').slick({
             }
     },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                vertical: false,
+                arrows: false,
             }
     },
         {
@@ -191,10 +196,10 @@ $('.testi-slider .right').slick({
             }
     },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
             }
     },
         {
@@ -240,10 +245,10 @@ $('#themforest-part .row').slick({
             }
     },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
             }
     },
         {
