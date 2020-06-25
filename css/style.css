@@ -1043,6 +1043,7 @@ nav ul li a:hover:after {
     text-align: center;
     color: #353535;
     padding-top: 30px;
+    width: 100%;
     position: relative;
 }
 
@@ -1053,9 +1054,9 @@ nav ul li a:hover:after {
     border: 1px solid #353535;
     border-radius: 50%;
     position: absolute;
-    top: -20%;
-    left: 36%;
-    transform: translate(-50%, -100%) importent;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -100%);
     transition: .5s;
 }
 

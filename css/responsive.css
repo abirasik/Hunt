@@ -265,20 +265,20 @@
     }
 
     #service-part .service-slider .item2 .middel {
-        width: auto;
+        width: 100%;
         position: absolute;
-        top: 118px;
-        left: 38%;
-        transform: translateY(-50%);
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     #service-part .service-slider .item2 .right {
         display: block;
-        width: auto;
+        width: 100%;
         position: absolute;
-        top: 40px;
-        left: 24%;
-        transform: translateY(-50%);
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     /* service part end */
@@ -335,7 +335,7 @@
     #testi-part .overlay .testi-slider .right .item .box {
         position: absolute;
         top: -15px;
-        left: 44%;
+        left: 45%;
         
     }
 
@@ -359,11 +359,6 @@
     #pricing-part .item {
         margin-bottom: 20px;
     }
-    
-
-    #pricing-part .item .middel .round{
-        left: 33%;
-    } 
     
 
     /* pricing part */
@@ -695,22 +690,21 @@
     }
 
     #service-part .service-slider .item2 .middel {
-        width: auto;
+        width: 100%;
         position: absolute;
-        top: 118px;
-        left: 43.5%;
-        transform: translateY(-50%);
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     #service-part .service-slider .item2 .right {
         display: block;
-        width: auto;
+        width: 100%;
         position: absolute;
-        top: 40px;
-        left: 35%;
-        transform: translateY(-50%);
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
     }
-
     /* service part end */
 
 
@@ -796,7 +790,6 @@
     #pricing-part .item .middel .round {
         width: 90px;
         height: 90px;
-        left: 23%;
     }
 
     #pricing-part .item .middel .round .round2 {
@@ -1139,21 +1132,21 @@
         display: none;
     }
 
-    #service-part .service-slider .item2 .middel {
-        width: auto;
+   #service-part .service-slider .item2 .middel {
+        width: 100%;
         position: absolute;
-        top: 118px;
-        left: 45%;
-        transform: translateY(-50%);
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     #service-part .service-slider .item2 .right {
         display: block;
-        width: auto;
+        width: 100%;
         position: absolute;
-        top: 40px;
-        left: 39%;
-        transform: translateY(-50%);
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     /* service part end */
@@ -1237,15 +1230,10 @@
         margin-bottom: 20px;
     }
 
-    #pricing-part .item .middel .round {
-        width: 90px;
-        height: 90px;
-        left: 30%;
-    }
 
     #pricing-part .item .middel .round .round2 {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
 
     #pricing-part .item .middel .round .round2 .pric {
@@ -1371,13 +1359,6 @@
 
     /* testi part end*/
 
-
-    /* pricing part start*/
-    #pricing-part .item .middel .round {
-        left: 33%;
-    }
-
-    /* pricing part end*/
 
     /* counter part start*/
     #counter-part .overlay .box {
