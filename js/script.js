@@ -245,7 +245,7 @@ $('#themforest-part .row').slick({
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 3,
                 slidesToScroll: 1,
             }
     },
