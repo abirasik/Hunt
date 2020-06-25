@@ -319,11 +319,15 @@
     }
 
     #testi-part .overlay .testi-slider .right .item {
-        padding: 20px 15px;
+        padding: 30px 15px;
         margin-top: 40px;
         margin-left: 0;
+       
     }
-
+    #testi-part .overlay .testi-slider .right .item{
+         text-align: center;
+    }
+    
     #testi-part .overlay .testi-slider .right .item p {
         width: auto;
     }
@@ -332,6 +336,7 @@
         position: absolute;
         top: -15px;
         left: 44%;
+        
     }
 
     #port-bottom-shape {
@@ -354,6 +359,12 @@
     #pricing-part .item {
         margin-bottom: 20px;
     }
+    
+
+    #pricing-part .item .middel .round{
+        left: 33%;
+    } 
+    
 
     /* pricing part */
 
@@ -361,9 +372,12 @@
     #counter-part .overlay .box {
         margin-bottom: 20px;
     }
-
+    #counter-part .overlay .box .text h2{
+        font-size: 20px;
+    }
     #counter-part .overlay .box .text p {
-        font-size: 21px;
+        font-size: 8px;
+        margin-top: 10px;
     }
 
     /* counter part end*/
@@ -385,8 +399,8 @@
 
     /*   themforest part start*/
 
-    #themforest-part .box .logo {
-        text-align: -moz-center;
+    #themforest-part .box .logo img{
+        margin: 0 auto;
     }
 
     /*   themforest part end*/
@@ -735,9 +749,12 @@
     }
 
     #testi-part .overlay .testi-slider .right .item {
-        padding: 20px 15px;
+        padding: 30px 15px;
         margin-top: 40px;
         margin-left: 0;
+    }
+    #testi-part .overlay .testi-slider .right .item{
+         text-align: center;
     }
 
     #testi-part .overlay .testi-slider .right .item p {
@@ -779,7 +796,7 @@
     #pricing-part .item .middel .round {
         width: 90px;
         height: 90px;
-        left: 25%;
+        left: 23%;
     }
 
     #pricing-part .item .middel .round .round2 {
@@ -1177,11 +1194,13 @@
     }
 
     #testi-part .overlay .testi-slider .right .item {
-        padding: 20px 15px;
+        padding: 30px 15px;
         margin-top: 40px;
         margin-left: 0;
     }
-
+    #testi-part .overlay .testi-slider .right .item{
+         text-align: center;
+    }
     #testi-part .overlay .testi-slider .right .item p {
         width: auto;
     }
@@ -1238,11 +1257,14 @@
     /* counter part start*/
     #counter-part .overlay .box {
         margin-bottom: 20px;
-        padding: 10px 29px;
+        padding: 10px 10px;
     }
-
+    #counter-part .overlay .box .text h2{
+        font-size: 20px;
+    }
     #counter-part .overlay .box .text p {
         font-size: 12px;
+        margin-top: 10px;
     }
 
     /* counter part end*/
