@@ -507,6 +507,7 @@ nav ul li a:hover:after {
     height: 300px;
     position: relative;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 #portfolio-part .overlay .choto img {
@@ -515,14 +516,13 @@ nav ul li a:hover:after {
 }
 
 #portfolio-part .overlay .choto .overlay {
-    width: 100%;
+    width: 0%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, .6);
     padding: 0;
-    transform: scale(0);
     transition: .4s;
 }
 
@@ -541,6 +541,7 @@ nav ul li a:hover:after {
     height: 370px;
     position: relative;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 #portfolio-part .overlay .boro img {
@@ -549,14 +550,13 @@ nav ul li a:hover:after {
 }
 
 #portfolio-part .overlay .boro .overlay {
-    width: 100%;
+    width: 0%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, .6);
     padding: 0;
-    transform: scale(0);
     transition: .4s;
 }
 
@@ -571,11 +571,11 @@ nav ul li a:hover:after {
 }
 
 #portfolio-part .overlay .choto:hover .overlay {
-    transform: scale(1);
+    width: 100%;
 }
 
 #portfolio-part .overlay .boro:hover .overlay {
-    transform: scale(1);
+    width: 100%
 }
 
 #port-bottom-shape {
